@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculator App's</title>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="icon" type="image/png" href="./img/favi.png">
+    </head>
+    <body>
+        <main id="wrapper">
+            <h1>Calculator</h1>
+            <div class="cal__main">
+                <div class="cal__num">
+                    <div class="cal__box">
+                        <label for="cal__numOne">First number&nbsp;&nbsp;:&nbsp;&nbsp;</label>
+                        <input type="number" class="cal__numOne" id="cal__numOne" >
+                    </div>
+                    <div class="cal__box">
+                        <label for="cal__numTwo">Second number&nbsp;&nbsp;:&nbsp;&nbsp;</label>
+                        <input type="number" class="cal__numTwo" id="cal__numTwo">
+                    </div>
+                </div>
+                <div class="cal__optr">   
+                    <select name="cal__pick" id="cal__pick" class="cal__pick">
+                        <option value="" selected disabled>Choose operation</option>
+                        <option value="add">Add (+)</option>
+                        <option value="sub">Subract (-)</option>
+                        <option value="mul">Multiply (*)</option>
+                        <option value="div">Divide (/)</option>
+                    </select>
+                </div>
+            </div>
+            <div class="cal__btns">
+                <div class="cal__box">
+                    <button class="cal__btns cal__send">Send</button>
+                    <button class="cal__btns cal__cancel">Cancel</button>
+                 </div>
+            </div>
+        </main>
+    </body>
+</html>
