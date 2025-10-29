@@ -4,8 +4,8 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Calculator App's</title>
-        <link rel="stylesheet" href="./style.css">
-        <link rel="icon" type="image/png" href="./img/favi.png">
+        <!-- <link rel="stylesheet" href="./style.css"> -->
+        <!-- <link rel="icon" type="image/png" href="./img/favi.png"> -->
     </head>
     <body>
         <main id="wrapper">
@@ -20,13 +20,16 @@
                         <label for="cal__numTwo">Second number&nbsp;&nbsp;:&nbsp;&nbsp;</label>
                         <input type="number" class="cal__numTwo" id="cal__numTwo">
                     </div>
+                    <div class="cal__box">
+                        <span class="cal__result"></span>
+                    </div>
                 </div>
                 <div class="cal__optr">   
                     <select name="cal__pick" id="cal__pick" class="cal__pick">
                         <option value="" selected disabled>Choose operation</option>
                         <option value="add">Add (+)</option>
                         <option value="sub">Subract (-)</option>
-                        <option value="mul">Multiply (*)</option>
+                        <option value="mul">Multsiply (*)</option>
                         <option value="div">Divide (/)</option>
                     </select>
                 </div>
@@ -38,5 +41,6 @@
                  </div>
             </div>
         </main>
+    <script src="./script.js"></script>
     </body>
 </html>
